@@ -10,7 +10,7 @@ class Programm
         Console.WriteLine("Новый массив:");
         foreach (string item in resArray)
         {
-            Console.Write(item + ",");
+            Console.Write(item + ", " );
         }
     }
     static string[] SortingArray(string[] FirstArray)
@@ -20,8 +20,9 @@ class Programm
         {
             if (item.Length <= 3)
             {
-                count++;
+                count++;    
             }
+
         }
         string[] resArray = new string[count];
         int index = 0;
@@ -35,4 +36,10 @@ class Programm
         }
         return resArray;
     }
+        
+       
+    
 }
+    
+    
+
