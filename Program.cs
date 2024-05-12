@@ -22,7 +22,6 @@ class Programm
             {
                 count++;    
             }
-
         }
         string[] resArray = new string[count];
         int index = 0;
@@ -35,10 +34,7 @@ class Programm
             }
         }
         return resArray;
-    }
-        
-       
-    
+    }    
 }
     
     
